@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+<!-- bxinchun 2012-07-12 modified the file -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <!--
+    android:background="#000000"
+     -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:background="@drawable/ic_ns_search_back"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <EditText
+               android:id="@+id/et_search"
+               android:layout_width="230dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_left_margin"
+                android:background="@drawable/textfield_bg"
+                android:hint="@string/edit_hint"
+                android:inputType="phone"
+                android:maxLength="14"
+                android:textSize="24px"
+                android:textColor="@android:color/widget_edittext_dark" />
+
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/search_button_back"
+                android:gravity="center"
+                android:text="@string/search"
+                android:textSize="@dimen/result_title_text_size"
+                android:textColor="@android:color/primary_text_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TwoLineListItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_left_margin"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:mode="twoLine">
+        <TextView android:id="@+id/title_number"
+            style="@style/result_title"
+            android:text="@string/number"
+        />
+
+        <TextView android:id="@+id/tv_number"
+            style="@style/result_value"
+            android:layout_below="@id/title_number"
+            android:layout_alignLeft="@id/title_number"
+        />
+    </TwoLineListItem>
+
+    <View style="@style/list_seperate_line" />
+
+    <TwoLineListItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_left_margin"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:mode="twoLine">
+        <TextView android:id="@+id/title_local"
+            style="@style/result_title"
+            android:text="@string/local"
+       />
+
+        <TextView android:id="@+id/tv_address"
+            style="@style/result_value"
+            android:layout_below="@id/title_local"
+            android:layout_alignLeft="@id/title_local"
+        />
+    </TwoLineListItem>
+
+    <View style="@style/list_seperate_line" />
+
+    <TwoLineListItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_left_margin"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:mode="twoLine">
+        <TextView android:id="@+id/title_type"
+            style="@style/result_title"
+            android:text="@string/type"
+        />
+
+        <TextView android:id="@+id/tv_type"
+            style="@style/result_value"
+            android:layout_below="@id/title_type"
+            android:layout_alignLeft="@id/title_type"
+        />
+    </TwoLineListItem>
+
+    <View style="@style/list_seperate_line" />
+
+</LinearLayout>

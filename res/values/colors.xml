@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <color name="btn_panel_bg">#414141</color>
+    <color name="btn_select">#2d5a8c</color>
+    <color name="tab_select_color">#ebebeb</color>
+    <color name="tab_unselect_color">#a0a0a0</color>
+    <color name="list_primary_color">#e6e5e5</color>
+    <color name="list_secondary_color">#31b6e7</color>
+    <color name="list_second_attach_color">#636563</color>
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+</resources>

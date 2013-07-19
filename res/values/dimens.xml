@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <dimen name="list_item_left_margin">6dip</dimen>
+    <dimen name="list_item_right_margin">6dip</dimen>
+    <dimen name="list_item_top_margin">6dip</dimen>
+    <dimen name="black_listview_item_size">54dip</dimen>
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+	<!-- Begin: bxinchun add code 2012-07-12 -->
+	<dimen name="result_title_text_size">30px</dimen>
+	<dimen name="list_left_margin">13dp</dimen>
+	<!-- End: bxinchun add code 2012-07-12 -->
+</resources>

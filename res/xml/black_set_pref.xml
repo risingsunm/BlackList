@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="false" >
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="black_filter_server"
+        android:summaryOff="@string/global_off"
+        android:summaryOn="@string/global_on"
+        android:title="@string/black_filter_server" />
+
+    <ListPreference
+        android:defaultValue="@string/list_pref_default_value"
+        android:dialogTitle="@string/call_black_filter_mode_select"
+        android:entries="@array/mode_list_disp"
+        android:entryValues="@array/mode_list_value"
+        android:key="call_black_filter_mode"
+        android:summary="@string/call_black_filter_mode_summary"
+        android:title="@string/call_black_filter_mode_title" />
+    <ListPreference
+        android:defaultValue="@string/list_pref_default_value"
+        android:dialogTitle="@string/call_black_filter_reject_select"
+        android:entries="@array/reject_list_disp_temp"
+        android:entryValues="@array/reject_list_value_temp"
+        android:key="call_black_filter_reject"
+        android:summary="@string/call_black_filter_reject_summary"
+        android:title="@string/call_black_filter_reject_title" />
+    <ListPreference
+        android:defaultValue="@string/list_pref_default_value"
+        android:dialogTitle="@string/call_black_filter_notice_select"
+        android:entries="@array/notice_list_disp"
+        android:entryValues="@array/notice_list_value"
+        android:key="call_black_filter_notice"
+        android:summary="@string/call_black_filter_notice_summary"
+        android:title="@string/call_black_filter_notice_title" />
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+</PreferenceScreen>

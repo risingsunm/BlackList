@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <string name="hello">Hello World, MyPActivity!</string>
+    <string name="app_name">"来电黑名单"</string>
+    <string name="add_black_title">"添加黑名单"</string>
+    <string name="edit_black_title">"编辑黑名单"</string>
+    <string name="input_black_number">"请输入号码!"</string>
+    <string name="black_number_exist">"号码已存在黑名单中,不需添加"</string>
+    <string name="call_black_title">"防火墙"</string>
+    <string name="call_black_summary">"设置黑名单,自动拦截来电"</string>
+    <string name="call_black_record">"拦截记录"</string>
+    <string name="call_black_record_empty">"无记录"</string>
+    <string name="list_pref_default_value">0</string>
+    <string name="call_black_filter_mode_default_value">"关闭"</string>
+    <string name="call_black_filter_reject_default_value">"返回空号"</string>
+    <string name="call_black_filter_notice_default_value">"信息栏提示"</string>
+    <!-- Begin: Modified by sunrise for BlackListMgr 2012/07/23 -->
+    <string name="call_black_list">"黑名单"</string>
+    <!-- End: Modified by sunrise for BlackListMgr 2012/07/23 -->
+    <string name="call_black_list_empty">未添加黑名单</string>
+    <string name="call_black_set">设置</string>
+    <string name="black_filter_server">"拦截服务"</string>
+    <string name="global_on">"已开启"</string>
+    <string name="global_off">"已停止"</string>
+    <string name="global_ok">"确定"</string>
+    <string name="global_no">"取消"</string>
+    <string name="global_save">"保存"</string>
+    <string name="add_success">"添加成功"</string>
+    <string name="add_fail">"添加失败"</string>
+    <string name="save_success">"保存成功"</string>
+    <string name="save_fail">"保存失败"</string>
+    <string name="delete_multi">"批量删除"</string>
+    <string name="del_success">"删除成功"</string>
+    <string name="del_fail">"删除失败"</string>
+    <string name="global_select_all">"全选"</string>
+    <string name="delete_title">"删除"</string>
+    <string name="delete_msg">"确定删除所选项吗?"</string>
+    <string name="clear_list">"清空列表"</string>
+    <string name="clear_msg">"是否清空列表?"</string>
+    <string name="black_block_type">"选择拦截类型"</string>
+    <string name="call_black_filter_mode_title">"拦截号码"</string>
+    <string name="call_black_filter_mode_summary">"设置需要拦截的号码"</string>
+    <string name="call_black_filter_mode_select">选择拦截号码</string>
+    <string name="call_black_filter_reject_title">"拦截方式"</string>
+    <string name="call_black_filter_reject_summary">"设置来电的拦截方式"</string>
+    <string name="call_black_filter_reject_select">选择拦截方式</string>
+    <string name="call_black_filter_notice_title">"拦截提示"</string>
+    <string name="call_black_filter_notice_summary">"设置拦截来电后的提示方式"</string>
+    <string name="call_black_filter_notice_select">选择提示方式"</string>
+    <string name="unknow_attach">"未知归属地"</string>
+    <string name="number_list_empty">"黑名单为空"</string>
+    <string name="record_list_empty">"无记录"</string>
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+
+    <!-- Begin: Modified by xiepengfei for add icon 2012/05/15 -->
+    <string name="number_search">"号码查询"</string>
+    <string name="number">"号码"</string>
+    <string name="search">"查询"</string>
+    <string name="edit_hint">"请输入号码"</string><!-- /区号 -->
+    <string name="type">"号码类型"</string>
+    <string name="local">"归属地"</string>
+    <!-- End: Modified by xiepengfei for add icon 2012/05/15 -->
+    <!-- Begin: Modified by sunrise for BlackListFine 2012/06/02 -->
+    <string name="attach_no_match">"没有匹配的记录"</string>
+    <!-- End: Modified by sunrise for BlackListFine 2012/06/02 -->
+
+</resources>

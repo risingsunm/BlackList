@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+    <!-- Begin: Modified by sunrise for BlackListFine 2012/07/21 -->
+    <item
+        android:id="@+id/add_number"
+        android:title="@string/add_black_title"
+        android:icon="@drawable/ic_menu_add_member">
+    </item>
+    <item
+        android:id="@+id/delete_multi"
+        android:title="@string/delete_multi"
+        android:icon="@drawable/item_del">
+    </item>
+    <!-- End: Modified by sunrise for BlackListFine 2012/07/21 -->
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+</menu>

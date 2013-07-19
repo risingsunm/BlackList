@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <string-array name="mode_list_disp">
+        <item>Black number</item>
+        <item>All number</item>
+    </string-array>
+    <string-array name="mode_list_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="reject_list_disp_temp">
+        <item>Atuo-hangup</item>
+    </string-array>
+    <string-array name="reject_list_value_temp">
+        <item>0</item>
+    </string-array>
+    <string-array name="reject_list_disp">
+        <item>Atuo hangup</item>
+        <item>Reply empty</item>
+        <item>Reply busy</item>
+        <item>Reply closed</item>
+        <item>Reply inactive</item>
+    </string-array>
+    <string-array name="reject_list_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="notice_list_disp">
+        <item>No notice</item>
+        <item>Bar notice</item>
+    </string-array>
+    <string-array name="notice_list_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="RecordDlgItem">
+        <item>Delete</item>
+        <item>Dial</item>
+        <item>Send sms</item>
+        <item>Clear list</item>
+    </string-array>
+    <string-array name="ListDlgItem">
+        <item>Delete</item>
+        <item>Edit</item>
+    </string-array>
+    <string-array name="black_block_type">
+        <item>Incoming</item>
+        <item>Sms</item>
+    </string-array>
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+
+    <!-- Begin: Modified by xiepengfei for ConstantNumberActivity 2012/05/21 -->
+    <!-- Begin: Modified by sunrise for ConstantDialog 2012/07/23 -->
+    <string-array name="constant_number_options">
+        <item>Dial</item>
+        <item>Send sms</item>
+    </string-array>
+    <!-- End: Modified by sunrise for ConstantDialog 2012/07/23 -->
+    <!-- End: Modified by xiepengfei for ConstantNumberActivity 2012/05/21 -->
+    <!-- Begin: Modified by xiepengfei for add some array 2012/05/26 -->
+    <string-array name="constant_title">
+        <item>Attach query</item>
+        <item>Daily Life</item>
+        <item>Finance</item>
+        <item>Mobile operator</item>
+        <item>Courier Service</item>
+        <item>Complaints Advisory</item>
+        <item>Airline Ticket</item>
+    </string-array>
+    <string-array name="type1">
+        <item>匪警</item>
+        <item>电话报障</item>
+        <item>查号台</item>
+        <item>火警</item>
+        <item>急救中心</item>
+        <item>交通事故报警</item>
+        <item>红十字会急救台</item>
+        <item>报时服务</item>
+        <item>天气预报</item>
+        <item>中国移动综合信息服务</item>
+        <item>中国电信号码百事通</item>
+        <item>麦当劳麦乐送</item>
+        <item>肯德基宅急送</item>
+        <item>必胜客宅急送</item>
+    </string-array>
+    <string-array name="type2">
+        <item>中国银行</item>
+        <item>工商银行</item>
+        <item>建设银行</item>
+        <item>招商银行</item>
+        <item>交通银行</item>
+        <item>农业银行</item>
+        <item>兴业银行</item>
+        <item>民生银行</item>
+        <item>深圳发展银行</item>
+        <item>光大银行</item>
+        <item>广发银行</item>
+        <item>浦发银行</item>
+        <item>中信银行</item>
+        <item>平安银行</item>
+        <item>华夏银行</item>
+        <item>邮政储蓄</item>
+        <item>徽商银行</item>
+        <item>中国银联</item>
+        <item>北京农村商业银行</item>
+        <item>上海证券交易所</item>
+        <item>平安人寿</item>
+        <item>太平洋保险</item>
+        <item>华泰保险</item>
+        <item>中国人寿</item>
+        <item>太平人寿</item>
+        <item>泰康人寿</item>
+        <item>新华人寿</item>
+        <item>合众人寿</item>
+        <item>民生人寿</item>
+        <item>海康人寿</item>
+        <item>中国人保</item>
+        <item>永安财险</item>
+        <item>大地财险</item>
+        <item>安邦财险</item>
+        <item>中华联合财险</item>
+        <item>平安产险</item>
+    </string-array>
+    <string-array name="type3">
+        <item>中国移动客服</item>
+        <item>中国移动话费查询</item>
+        <item>中国移动充值</item>
+        <item>中国联通客服</item>
+        <item>中国联通充值</item>
+        <item>中国联通投诉</item>
+        <item>中国联通电话导航</item>
+        <item>中国电信客服</item>
+        <item>中国铁通客服</item>
+        <item>中国卫通客服</item>
+    </string-array>
+    <string-array name="type4">
+        <item>中国邮政</item>
+        <item>联邦快递</item>
+        <item>TNT快递</item>
+        <item>UPS快运</item>
+        <item>顺丰速运</item>
+        <item>DHL快运</item>
+        <item>宅急送</item>
+        <item>中铁快运</item>
+    </string-array>
+    <string-array name="type5">
+        <item>信息咨询服务</item>
+        <item>消费者投诉</item>
+        <item>中国邮政业务咨询</item>
+        <item>不良信息举报中心</item>
+        <item>法律服务</item>
+        <item>供电服务</item>
+        <item>环保投诉</item>
+        <item>质量监督</item>
+        <item>价格举报</item>
+        <item>纳税服务</item>
+        <item>市长专线</item>
+        <item>劳动保障政策咨询</item>
+        <item>公共卫生公益热线</item>
+        <item>城建服务</item>
+        <item>文化市场综合执法</item>
+        <item>保护知识产权举报</item>
+        <item>旅游投诉</item>
+        <item>廉政投诉</item>
+        <item>城管执法</item>
+        <item>民政服务</item>
+        <item>国税局偷税漏税举报</item>
+        <item>中共组织部专用举报</item>
+    </string-array>
+    <string-array name="type6">
+        <item>携程网</item>
+        <item>e龙网</item>
+        <item>同程网</item>
+        <item>芒果网</item>
+        <item>易游天下</item>
+        <item>阳光旅行网</item>
+        <item>中国票务网</item>
+        <item>actrip雅程</item>
+        <item>9588旅行网</item>
+        <item>中青旅</item>
+        <item>中国旅行社</item>
+        <item>51766旅行网</item>
+        <item>国航全球服务热线</item>
+        <item>国航全球订票热线</item>
+        <item>国航会员服务热线</item>
+        <item>东方航空服务热线</item>
+        <item>东方航空旅客投诉</item>
+        <item>南航销售服务热线</item>
+        <item>南航直销服务热线</item>
+        <item>南航国内订票查询热线</item>
+        <item>南航国际订票查询热线</item>
+        <item>海南航空投诉热线</item>
+        <item>山东航空服务热线</item>
+        <item>上海航空服务热线</item>
+        <item>深圳航空服务热线</item>
+        <item>深圳航空会员热线</item>
+        <item>四川航空服务热线</item>
+        <item>厦门航空客服热线</item>
+        <item>春秋航空服务热线</item>
+        <item>中国联航服务热线1</item>
+        <item>中国联航服务热线2</item>
+        <item>祥鹏航空服务热线</item>
+        <item>金鹿航空服务热线</item>
+    </string-array>
+    <!-- End: Modified by xiepengfei for add some array 2012/05/26 -->
+
+</resources>

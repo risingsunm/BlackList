@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+<!-- Begin: Modified by sunrise for BlackListFine 2012/07/21 -->
+<!-- Begin: Modified by sunrise for BlackListMgr 2012/07/23 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/black_list_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/numberEmpty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/list_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/noitems_text_based"
+            android:gravity="center"
+            android:text="@string/number_list_empty" />
+    </LinearLayout>
+<!-- End: Modified by sunrise for BlackListMgr 2012/07/23 -->
+<!-- End: Modified by sunrise for BlackListFine 2012/07/21 -->
+
+    <LinearLayout
+        android:id="@+id/layout_select_all"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/action_bar_tab"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+    <!-- Begin: Modified by sunrise for TextSize 2012/06/06 -->
+    <TextView style="@style/list_item_primary_font_color"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:layout_weight="1"
+        android:text="@string/global_select_all" />
+    <!-- End: Modified by sunrise for TextSize 2012/06/06 -->
+
+        <CheckBox
+            android:id="@+id/checkbox_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/black_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+            <!-- Begin: bxinchun 2012-07-12 comment the divider line define. -->
+            <!--
+            android:divider="#363434" />
+             -->
+            <!-- End: bxinchun 2012-07-12 comment the divider line define. -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/btn_panel_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/delete_done"
+            android:layout_width="156dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/button_indicator"
+            android:text="@string/global_ok"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/delete_cancel"
+            android:layout_width="156dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/button_indicator"
+            android:text="@string/global_no"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- End: Modified by sunrise for BlackList 2012/06/01 -->

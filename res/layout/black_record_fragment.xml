@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+<!-- Begin: Modified by sunrise for BlackListFine 2012/07/21 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/black_record_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/recordEmpty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/list_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/noitems_text_based"
+            android:gravity="center"
+            android:text="@string/record_list_empty" />
+    </LinearLayout>
+<!-- End: Modified by sunrise for BlackListFine 2012/07/21 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/record_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+            <!-- Begin: bxinchun 2012-07-12 comment the divider line define. -->
+            <!--
+            android:divider="#363434" />
+             -->
+            <!-- End: bxinchun 2012-07-12 comment the divider line define. -->
+    </LinearLayout>
+
+</LinearLayout>
+<!-- End: Modified by sunrise for BlackList 2012/06/01 -->

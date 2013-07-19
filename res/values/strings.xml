@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <string name="hello">Hello World, MyPActivity!</string>
+    <string name="app_name">BlackList</string>
+    <string name="add_black_title">Add black number</string>
+    <string name="edit_black_title">Edit black number</string>
+    <string name="input_black_number">Input number!</string>
+    <string name="black_number_exist">Number exist,no need add</string>
+    <string name="call_black_title">Call filter</string>
+    <string name="call_black_summary">set black number,filter incoming call automatically</string>
+    <string name="call_black_record">Filter record</string>
+    <string name="call_black_record_empty">No record</string>
+    <string name="list_pref_default_value">0</string>
+    <string name="call_black_filter_mode_default_value">Close</string>
+    <string name="call_black_filter_reject_default_value">Reply empty</string>
+    <string name="call_black_filter_notice_default_value">Bar notice</string>
+    <!-- Begin: Modified by sunrise for BlackListMgr 2012/07/23 -->
+    <string name="call_black_list">Black number</string>
+    <!-- End: Modified by sunrise for BlackListMgr 2012/07/23 -->
+    <string name="call_black_list_empty">No number</string>
+    <string name="call_black_set">Setting</string>
+    <string name="black_filter_server">Filter server</string>
+    <string name="global_on">On</string>
+    <string name="global_off">Off</string>
+    <string name="global_ok">Ok</string>
+    <string name="global_no">No</string>
+    <string name="global_save">Save</string>
+    <string name="add_success">Add success</string>
+    <string name="add_fail">Add failure</string>
+    <string name="save_success">Save success</string>
+    <string name="save_fail">Save failure"</string>
+    <string name="delete_multi">Multi-delete</string>
+    <string name="del_success">Delete success</string>
+    <string name="del_fail">"Delete failure</string>
+    <string name="global_select_all">Select all</string>
+    <string name="delete_title">Delete</string>
+    <string name="delete_msg">Sure to delete selected?</string>
+    <string name="clear_msg">Sure to clear this list?</string>
+    <string name="clear_list">"Clear list"</string>
+    <string name="black_block_type">Filter type</string>
+    <string name="call_black_filter_mode_title">Filter number</string>
+    <string name="call_black_filter_mode_summary">Set number to be filtered</string>
+    <string name="call_black_filter_mode_select">Filter number select</string>
+    <string name="call_black_filter_reject_title">Filter mode</string>
+    <string name="call_black_filter_reject_summary">Set reject mode when filtering</string>
+    <string name="call_black_filter_reject_select">Filter mode select</string>
+    <string name="call_black_filter_notice_title">Filter notice</string>
+    <string name="call_black_filter_notice_summary">Set notice mode after filter</string>
+    <string name="call_black_filter_notice_select">Filter notice select</string>
+    <string name="unknow_attach">Unknown</string>
+    <string name="number_list_empty">number list is empty</string>
+    <string name="record_list_empty">No record</string>
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+
+    <!-- Begin: Modified by xiepengfei for add icon 2012/05/15 -->
+    <string name="number_search">Number query</string>
+    <string name="number">Number</string>
+    <string name="search">Query</string>
+    <string name="edit_hint">Input number</string>
+    <string name="type">Number type</string>
+    <string name="local">Attach</string>
+    <!-- End: Modified by xiepengfei for add icon 2012/05/15 -->
+    <!-- Begin: Modified by sunrise for BlackListFine 2012/06/02 -->
+    <string name="attach_no_match">No record to match</string>
+    <!-- End: Modified by sunrise for BlackListFine 2012/06/02 -->
+</resources>

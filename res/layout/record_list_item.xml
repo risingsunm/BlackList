@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/list_item_top_margin" >
+
+    <ImageView
+        android:id="@+id/record_list_item_image"
+        android:layout_width="@dimen/black_listview_item_size"
+        android:layout_height="@dimen/black_listview_item_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/black_list_item_image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/black_listview_item_size"
+        android:layout_alignBottom="@id/record_list_item_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:layout_toRightOf="@id/record_list_item_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/record_item_name"
+            style="@style/list_item_primary_font_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/record_item_date_time"
+            style="@style/list_item_second_font_color"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom" />
+    </LinearLayout>
+
+<!-- Begin: Modified by sunrise for BlackListFine 2012/06/02 -->
+    <TextView
+        android:id="@+id/record_item_attach"
+        style="@style/list_item_second_font_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/record_list_item_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/list_item_right_margin"
+        android:gravity="right"
+        android:textColor="#636563" />
+<!-- End: Modified by sunrise for BlackListFine 2012/06/02 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/record_list_item_image"
+        android:layout_marginTop="@dimen/list_item_top_margin"
+        android:background="#55ffffff" />
+
+</RelativeLayout>
+<!-- End: Modified by sunrise for BlackList 2012/06/01 -->

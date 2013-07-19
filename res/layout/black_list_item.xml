@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_black_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="@dimen/list_item_top_margin" >
+
+    <ImageView
+        android:id="@+id/black_list_item_image"
+        android:layout_width="@dimen/black_listview_item_size"
+        android:layout_height="@dimen/black_listview_item_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/black_list_item_image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/black_listview_item_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:layout_toRightOf="@id/black_list_item_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/black_list_item_name_number"
+            style="@style/list_item_primary_font_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/black_list_item_type_attach"
+            style="@style/list_item_second_font_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="bottom" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/delete_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/list_item_top_margin"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/black_list_item_image"
+        android:layout_marginTop="@dimen/list_item_top_margin"
+        android:background="#55ffffff" />
+
+</RelativeLayout>
+<!-- End: Modified by sunrise for BlackList 2012/06/01 -->

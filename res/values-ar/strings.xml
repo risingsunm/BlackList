@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+
+    <string name="hello">القائمة السوداء</string>
+    <string name="app_name">القائمة السوداء</string>
+    <string name="add_black_title">اضافة رقم الى القائمة السوداء</string>
+    <string name="edit_black_title">تعديل رقم القائمة السوداء</string>
+    <string name="input_black_number">رقم الدخول</string>
+    <string name="black_number_exist">رقم الخروج</string>
+    <string name="call_black_title">ترشيح المكالملت</string>
+    <string name="call_black_summary">ضبط رقم القائمة السوداء،ترشيح المكالمات الواردة</string>
+    <string name="call_black_record">تصفية تسجيل المكالمة</string>
+    <string name="clall_black_record_empty">لايوجد تسجيل</string>
+    <string name="list_pref_default_value">0</string>
+    <string name="call_black_filter_mode_default_value">إغلاق</string>
+    <string name="call_black_filter_reject_default_value">إعادة</string>
+    <string name="call_black_filter_notice_default_value">شريط الأشعار</string>
+    <!-- Begin: Modified by sunrise for BlackListMgr 2012/07/23 -->
+    <string name="call_black_list">ادارة الارقام السوداء</string>
+    <!-- End: Modified by sunrise for BlackListMgr 2012/07/23 -->
+    <string name="call_black_list_empty">لايوجد رقم</string>
+    <string name="call_black_set">الضبط</string>
+    <string name="black_filter_server">تصفية الخادم</string>
+    <string name="global_on">مفتوح</string>
+    <string name="global_off">مغلق</string>
+    <string name="global_ok">موافق</string>
+    <string name="global_no">لا</string>
+    <string name="global_save">حفظ</string>
+    <string name="add_success">نجح الأضافه</string>
+    <string name="add_fail">فشل الأضافه</string>
+    <string name="save_success">نجح الحفظ</string>
+    <string name="save_fail">فشل الحفظ</string>
+    <string name="delete_multi">حذف موضوع</string>
+    <string name="del_success">نجح الحذف</string>
+    <string name="del_fail">حذف الأضافه</string>
+    <string name="global_select_all">أختيار الكل</string>
+    <string name="delete_title">حذف</string>
+    <string name="delete_msg">تاكيد أختيار الحذف</string>
+    <string name="clear_list">حذف القائمة</string>
+    <string name="clear_msg">تأكيد حذف هذه القائمة</string>
+    <string name="black_block_type">نوع الترشيح</string>
+    <string name="call_black_filter_mode_title">ترشيح الرقم</string>
+    <string name="call_black_filter_mode_summary">ضبط الرقم للترشيح</string>
+    <string name="call_black_filter_mode_select">أختيارالرقم المرشح</string>
+    <string name="call_black_filter_reject_title">وضع الترشيح</string>
+    <string name="call_black_filter_reject_summary">أختيار رفض اثناء الترشيح</string>
+    <string name="call_black_filter_reject_select">أختيار وضع الترشيح</string>
+    <string name="call_black_filter_notice_title">إشعار بالترشيح</string>
+    <string name="call_black_filter_notice_summary">ضبط وضع الاشعار بعد الترشيح</string>
+    <string name="call_black_filter_notice_select">أختيار إشعار بالترشيح</string>
+    <string name="unknow_attach">غير معروف</string>
+    <string name="number_list_empty">قائمة الارقام فارغة</string>
+    <string name="record_list_empty">قائمة التسجيل فارغة</string>
+    <!-- End: Modified by sunrise for BlackList 2012/06/01 -->
+
+
+    <!-- Begin: Modified by xiepengfei for add icon 2012/05/15 -->
+    <string name="number_search">رقم الأستعلام</string>
+    <string name="number">الرقم</string>
+    <string name="search">الأستعلام</string>
+    <string name="edit_hint">رقم الدخول</string><!-- /区号 -->
+    <string name="type">نوع الرقم</string>
+    <string name="local">تعليق</string>
+    <!-- End: Modified by xiepengfei for add icon 2012/05/15 -->
+    <!-- Begin: Modified by sunrise for BlackListFine 2012/06/02 -->
+    <string name="attach_no_match">لايوجد تسجيل موصل</string>
+    <!-- End: Modified by sunrise for BlackListFine 2012/06/02 -->
+
+</resources>

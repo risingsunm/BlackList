@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by sunrise for BlackList 2012/06/01 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_black_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_black_number"
+        android:inputType="phone" />
+    <!-- 这里原始设计是有一个spinner将短信等集成的,上面是号码,下面是供选择拦截类型,比如来电,短信,邮件等. -->
+
+</LinearLayout>
+<!-- End: Modified by sunrise for BlackList 2012/06/01 -->
